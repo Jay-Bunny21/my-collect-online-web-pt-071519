@@ -8,4 +8,4 @@ end
 collection
 end
 
-my_collect {|i| i.split(" ").first}
+my_collect(:students) {|i| i.split(" ").first}

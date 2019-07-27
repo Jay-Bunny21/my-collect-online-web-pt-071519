@@ -8,4 +8,4 @@ end
 collection
 end
 
-my_collect(students) {|i| i 
+my_collect(students) {|i| i.split(" ")
